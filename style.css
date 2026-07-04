@@ -23,6 +23,25 @@ img {
   display: block;
 }
 
+.size-label {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 10px;
+  font-weight: 600;
+}
+
+.size-label select {
+  margin-left: 8px;
+  padding: 6px 10px;
+  border: 2px solid #d63600;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 16px;
+  color: #5c3118;
+  background: white;
+  cursor: pointer;
+}
+
 .toppings {
   display: flex;
   flex-wrap: wrap;
@@ -45,6 +64,22 @@ img {
 }
 
 .topping-label:hover {
+  background: #fdf4e9;
+}
+
+.delivery-label {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 16px;
+  padding: 12px;
+  background: white;
+  border: 2px solid #d63600;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #5c3118;
+}
+
+.delivery-label:hover {
   background: #fdf4e9;
 }
 
